@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+form label {
+    color: grey;
+    text-transform: uppercase;
+}
+
+form input {
+    font-weight: 500;
+}
+
+form input {
+    color: grey !important;
+    font-weight: 300 !important;
+}
+
+form button {
+    text-transform: uppercase;
+}
+
+form.ng-invalid Submitted input.ng-invalid {
+    border-color: #b02a37;
+}
+
+table tr td:last-child>i:hover {
+    cursor: pointer;
+}
+
+table tr td:last-child>i:hover {
+    cursor: pointer;
+}
+
+table thead th{
+    color: gray !important;
+}

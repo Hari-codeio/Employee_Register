@@ -1,0 +1,13 @@
+<form class="row" [formGroup]="service.employeeForm" (submit)="onSubmit()" [class.submitted] = "submiteed">
+    <div class="col-12 mb-3">
+        <label class="form-lable">Name</label>
+        <input class="form-control form-control-lg" placeholder="Enter your name" formControlName="name">
+    </div>
+    <div class="col-6 mb-3">
+        <label class="form-lable">Position</label>
+        <input class="form-control form-control-lg" placeholder="Position" formControlName="description">
+    </div>
+    <div class="col-12 d-grid">
+        <button class="btn btn-lg btn-primary">Submit</button>
+    </div>
+</form>
